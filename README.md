@@ -81,4 +81,5 @@ Most K-Means clusters have one dominant matching Agglomerative cluster (e.g. 124
 └── README.md
 ├── data/
 │   └── CC GENERAL.csv
+├── Images/
 ```

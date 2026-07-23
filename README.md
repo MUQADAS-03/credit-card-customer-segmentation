@@ -31,7 +31,7 @@ Two clustering approaches were applied and compared on the same dataset:
 - K-Means was fit for every k from 2 to 10, recording inertia at each step.
 - Silhouette Score was computed alongside it to cross-check the choice of k.
 
-[Elbow Curve](<img width="1480" height="840" alt="image" src="https://github.com/user-attachments/assets/82b0c951-f118-40ee-b1ee-fd9a5450b3fb" />)
+![Elbow Curve](https://github.com/user-attachments/assets/82b0c951-f118-40ee-b1ee-fd9a5450b3fb)
 
 The elbow bends at k = 4–5, while silhouette actually peaks at k = 3 (0.251) before dipping a common, realistic disagreement, since the elbow method measures overall compactness and silhouette measures cluster separation. **k = 4** was selected: it sits at the elbow bend, its silhouette score (0.198) stays reasonable and close to the k = 3 peak, and it gives marketing/risk teams enough resolution to act on (k = 3 was found to merge two behaviourally distinct groups).
 
@@ -50,7 +50,7 @@ The elbow bends at k = 4–5, while silhouette actually peaks at k = 3 (0.251) b
 
 **Cluster sizes (k = 4)**
 
-[Cluster Distribution](<img width="1139" height="1019" alt="image" src="https://github.com/user-attachments/assets/044f9774-34b7-414b-81a7-6c5b3df8f52d" />)
+![Cluster Distribution](https://github.com/user-attachments/assets/044f9774-34b7-414b-81a7-6c5b3df8f52d)
 
 **Cluster profile — mean feature values**
 
